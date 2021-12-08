@@ -12,9 +12,7 @@
       "url": "heroku/nodejs"
     }
   ],
-  "stack": {
-    "stack": "heroku-18"
-  },
+  "stack":  "heroku-18",
   "addons": [
     {
       "plan": "heroku-postgresql:hobby-dev",
