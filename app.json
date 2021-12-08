@@ -7,9 +7,6 @@
       "size": "free"
     }
   },
-  "addons": [
-    "heroku-postgresql"
-  ],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
@@ -17,5 +14,10 @@
   ],
   "stack": {
     "stack": "heroku-20"
-  }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev"
+    }
+  ]
 }
